@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body h1,h2{
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 60px;
+}
+body h2,h3{
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 30px;
+}
+body p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body h5,h4{
+  font-family: 'Raleway', sans-serif;
+}
+body {
+
+}
+:root {
+  --orange:orange;
+     
+   }
+   .heading{
+  color:  var(--orange);
+   }
+   .buttonClass {
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#fff;
+    border-color:#eeb44f;
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    box-shadow:inset 0px 1px 0px 0px #fce2c1;
+    text-shadow:inset 0px 1px 0px #cc9f52;
+    background:linear-gradient(#ffc477, #fb9e25);
+  }
+  .buttonClass a{
+    text-decoration: none;
+    color: white;
+    font-family:Arial;
+  }
+  .buttonClass:hover {
+    background: linear-gradient(#fb9e25, #ffc477);
+  }
+      
+
+
+.banner{
+    background-image: url("../img/law.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.innerBnner{
+ 
+    background-color: #364592cf;
+    height: 100vh; 
+    width: 100%;
+   
+}
+#top-header .btn{
+    background-color: #F57328;
+    color: white;
+   
+}
+#top-header a{
+  font-family: 'Cormorant Garamond', serif;
+}
+#secondHead .content{
+    text-align: center;
+    color: white;
+    transform: translateY(250px);
+}
+#secondHead .content .btn{
+    background-color:#F57328;
+    color: white;
+}
+#sectionOne{
+    padding-top: 90px;
+    padding-bottom: 90px;
+   background-color: #16213E;
+    color:white;
+
+}
+
+#sectionOne .col-md-7{
+    border-right:5px solid orangered;
+    border-bottom: 5px solid orangered;
+   padding: 30px;
+}
+
+
+#sectionTwo{
+background-color: #D2DAFF;
+   padding-top: 90px;
+    padding-bottom: 90px;
+}
+#sectionThree{
+       background-color: #EEF1FF;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#sectionFour .img{
+  background-image: url("../img/slider4.jpg");
+  height: 70vh;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: right;
+}
+.innerImg{
+    height: 70vh;
+    width: 100%;
+    background-color: #364592cf;
+}
+#sectionFive{
+  background-color: #EFEFEF;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#sectionSix{
+  background-color: #CDF0EA;
+}
+#sectionFive .col-md-3{
+    background-color: #B1B2FF;
+   margin: 3px 3px;
+   padding: 10px 10px;
+   border-radius: 20px;
+   transition: 0.3s;
+}
+#sectionFive .col-md-3:hover{
+    box-shadow: -1px 8px 47px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 8px 47px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 8px 47px -7px rgba(0,0,0,0.75);
+
+}
+#sectionFive .btn{
+    background-color: #F57328;
+    color:white;
+}
+#sectionFive .col-lg-4{
+    margin: 20px 0px;
+}
+
+#client{
+    
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+   #testimonial   .testiImgBackground{
+    background-image: url("../img/client4.jpg");
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+   }
+   #testimonial   .testiImgBackground .testiImgInner{
+    height: 90vh;
+    width: 100%;
+    background-color:#364592cf;
+    font-size: 80px;
+   
+   }
+ #testimonial  .icon{
+    color: white;
+    opacity: 0.8;
+   }
+   @media only screen and (max-width: 600px) {
+     .rowOne{
+      position: relative;
+      margin-bottom: 100px;
+     }
+  }
+  @media only screen and (max-width: 600px) {
+    #testimonial .col-md-4{
+      width: 100%;
+      font-size: 15px;
+ 
+      
+
+
+    }
+
+
+    .testiImgBackground{
+        width: 100%;
+        height: 30vh;
+    }
+
+
+  }
+  #lawer{
+ padding-top: 30px;
+
+  }
+  #sectionSix{
+   
+  }
+  #client{
+  background-color: #D2DAFF;
+
+  }
+  #blog{
+  background-color: #EEF1FF;
+  padding-top: 30px;
+
+  }
+  #blog .card-body{
+    background-color: #16213E;
+    color: white;
+  }
+  #Registration{
+    padding-top: 40px;
+    padding-bottom: 40px;
+   background-color: #EEF1FF;
+  }
+
+  #testimonial h5{
+    color:white;
+  }
+#client .card-body{
+ 
+  background-color: #16213E;
+  color: white;
+}
+  
+  #footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #16213E;
+    color: white;
+  }
+  #footer .col-lg-3 a{
+    text-decoration: none;
+    color: white;
+  }
+  #footer .col-lg-3 ul{
+    list-style-type: none;
+    padding-top: 30px;
+  }
+  @media only screen and (max-width: 600px) {
+    #footer .col-lg-3{
+        margin-top: 60px;
+    }
+   body h1,h5{
+      font-size: 20px;
+    }
+  }
+  #footer    .footerFirstDiv{
+    margin-bottom: 40px;
+  }
+#lawer img{
+  width: 500px;
+  height: 300px;
+}
+@media only screen and (max-width: 900px) {
+  #testimonial .rowOne{
+    padding-top: 200px;
+  }
+
+  }

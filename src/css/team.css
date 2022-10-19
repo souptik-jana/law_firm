@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body h2,h3{
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 30px;
+}
+body p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body h5,h4{
+  font-family: 'Raleway', sans-serif;
+}
+body h1,h2{
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 60px;
+}
+
+
+
+:root {
+  --orange:orange;
+     
+   }
+   .heading{
+    color:  var(--orange);
+}
+.banner{
+    background-image: url("../img/our-team.jpg");
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.innerBnner{
+ 
+    background-color: #364592cf;
+    height: 70vh; 
+    width: 100%;
+   
+}
+
+#secondHead .content{
+    text-align: center;
+    color: white;
+    transform: translateY(118px);;
+}
+ 
+#footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #16213E;
+    color: white;
+  }
+  #footer .col-lg-3 a{
+    text-decoration: none;
+    color: white;
+  }
+  #footer .col-lg-3 ul{
+    list-style-type: none;
+    padding-top: 30px;
+  }
+  #firstSection{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  #chooseUs{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+  }
+  #chooseUs .firstIcon{
+    margin-left: 340px;
+  }
+  #chooseUs .btn{
+    background-color:rgb(26, 26, 76);
+    color: white;
+  }
+  #top-header .btn{
+    background-color: orange;
+    color: white;
+    }
+  #footer h5{
+    font-family: 'Libre Caslon Display', serif;
+}
+#footer p,a{
+    font-family: 'Cormorant Garamond', serif;
+}
+@media only screen and (max-width: 600px) {
+    #footer .col-lg-3{
+        margin-top: 60px;
+    }
+  }
+  #lawyer{
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+  #lawyer .btn{
+    background-color: orange;
+    color: white;
+  }
+  #lawyer .btn a{
+    text-decoration: none;
+    color: white;
+  }
+  #lawyer  .col-md-5{
+    padding-top: 30px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    
+   font-weight: 800;
+    border-radius: 10px;
+    box-shadow: -7px 9px 52px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -7px 9px 52px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 9px 52px -3px rgba(0,0,0,0.75);
+  }
+/* 
+  #lawyer  .col-md-5:hover{
+    box-shadow: -7px 9px 52px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: -7px 9px 52px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -7px 9px 52px -3px rgba(0,0,0,0.75);
+  } */
+  @media only screen and (max-width: 600px) {
+  body  h1{
+      font-size: 40px;
+    }
+  }

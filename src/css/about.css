@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url("../img/client6.jpg");
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.innerBnner{
+ 
+    background-color: #364592cf;
+    height: 70vh; 
+    width: 100%;
+   
+}
+#secondHead .content{
+    text-align: center;
+    color: white;
+    transform: translateY(118px);;
+    /* font-family: 'Edu VIC WA NT Beginner', cursive; */
+   
+}
+#secondHead .content h1{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 60px;
+}
+#secondHead .content p{
+    
+font-family: 'Montserrat', sans-serif;
+}
+:root {
+ --orange:orange;
+    
+  }
+#secondHead .content .heading{
+ color:  var(--orange);
+}
+#firstSection{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #EEF1FF;
+}
+#top-header .btn{
+    background-color:orange;
+    color:white;
+}
+#firstSection h1{
+    font-family: 'Libre Caslon Display', serif;
+
+
+}
+#firstSection h5{
+    font-family: 'Raleway', sans-serif;
+margin-top: 20px;
+}
+#firstSection p{
+    /* font-family: 'Arima', cursive; */
+    /* font-family: 'Edu NSW ACT Foundation', cursive;
+     */
+     /* font-family: 'PT Serif', serif; */
+     /* font-family: 'Playfair Display', serif; */
+     font-family: 'Cormorant Garamond', serif;
+     font-size: 20px;
+    margin-top: 30px;
+}
+#firstSection .col-lg-5{
+    text-align: justify;
+   margin-top: 70px;
+}
+.heading{
+    color:  var(--orange);
+}
+#firstSection .col-lg-5{
+    padding-top: 20px;
+}
+#history{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #D2DAFF;
+}
+#history h1{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 60px;
+
+}
+#history p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+.secondOuterbanner{
+    background-image: url("../img/client7.jpg");
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+}
+.secondInnerBanner{
+
+    background-color: #364592cf;
+    height: 60vh; 
+    width: 100%;
+
+}
+ 
+#footer{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #16213E;
+    color: white;
+  }
+  #footer .col-lg-3 a{
+    text-decoration: none;
+    color: white;
+  }
+  #footer .col-lg-3 ul{
+    list-style-type: none;
+    padding-top: 30px;
+  }
+
+#secondHead .content{
+    transform: translateY(118px);
+}
+#chooseUs{
+   background-color:#E1FFEE;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#chooseUs .firstRow{
+   
+}
+#chooseUs .secondRow{
+    padding-top: 60px;
+   
+}
+#chooseUs h1{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 60px;
+}
+#chooseUs p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+#chooseUs h5{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 20px;
+}
+#sectionThird{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  background-color: #5CB8E4;
+  color: white;
+}
+#sectionThird h1{
+    font-family: 'Libre Caslon Display', serif;
+}
+#sectionThird p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+}
+#fourtSection{
+    padding-top: 40px;
+    padding-bottom: 40px;
+   background-color:#E1FFEE;
+}
+#fourtSection h5{
+    font-family: 'Libre Caslon Display', serif;
+}
+#fourtSection p{
+    font-family: 'Cormorant Garamond', serif;
+    
+    font-size: 20px;
+}
+#footer h5{
+    font-family: 'Libre Caslon Display', serif;
+}
+#footer p,a{
+    font-family: 'Cormorant Garamond', serif;
+}
+@media only screen and (max-width: 600px) {
+    #footer .col-lg-3{
+        margin-top: 60px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+#secondHead .content h1 {
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 40px;
+}
+    }
+    @media only screen and (max-width: 600px) {
+
+        #history h1 {
+            font-family: 'Libre Caslon Display', serif;
+            font-size: 40px;
+        }
+            }

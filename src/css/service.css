@@ -1,0 +1,108 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body h1,h2{
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 60px;
+}
+#secondSection h1{
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 30px;
+}
+#secondSection{
+  background-color: #E1FFEE;
+  padding-top: 30px;
+}
+#firstSection{
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-color: #16213E;
+  color: white;
+}
+body h2,h3{
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 30px;
+}
+body p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body h5,h4{
+  font-family: 'Raleway', sans-serif;
+}
+:root {
+  --orange:orange;
+     
+   }
+   .heading{
+    color:  var(--orange);
+}
+
+.banner{
+    background-image: url("../img/service.jpg");
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.innerBnner{
+ 
+    background-color: #364592cf;
+    height: 70vh; 
+    width: 100%;
+   
+}
+#secondHead .content{
+    text-align: center;
+    color: white;
+    transform: translateY(118px);;
+}
+ 
+#footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #16213E;
+    color: white;
+  }
+  #footer .col-lg-3 a{
+    text-decoration: none;
+    color: white;
+  }
+  #footer .col-lg-3 ul{
+    list-style-type: none;
+    padding-top: 30px;
+  }
+  #fourtSection h5{
+    font-family: 'Libre Caslon Display', serif;
+}
+#fourtSection p{
+    font-family: 'Cormorant Garamond', serif;
+    
+    font-size: 20px;
+}
+#top-header .btn{
+  background-color: orange;
+  color: white;
+  }
+#footer h5{
+    font-family: 'Libre Caslon Display', serif;
+}
+#footer p,a{
+    font-family: 'Cormorant Garamond', serif;
+}
+@media only screen and (max-width: 600px) {
+    #footer .col-lg-3{
+        margin-top: 60px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    body  h1{
+        font-size: 40px;
+      }
+    }
